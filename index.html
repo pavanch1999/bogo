@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="index.js" defer></script>
+    <title>Unit Selection</title>
+  </head>
+  <body>
+    <div class="head">
+      <!-- <div class="line"></div> -->
+      <h2 class="bogo" font-family: var(--font-main)>YAY! It's BOGO</h2>
+      <!-- <div class="line"></div> -->
+    </div>
+    <div class="bord">
+      <div class="box" id="ex1">
+        <input type="radio" id="unit1" name="unit" />
+        <span style="font-weight: bold">1 Unit</span>
+        <label for="unit1">
+          <span class="per"> 10% Off</span>
+          <span class="usd">$10.00 USD</span><br />
+
+          <del class="old">$24.00 USD</del>
+          <br />
+          <br />
+          <div class="dropdown-container">
+            #1
+            <div class="dropdown-group">
+              <label for="size">Size</label>
+              <select id="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="dropdown-group">
+              <label for="color">Color</label>
+              <select id="color">
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <fieldset class="ex" id="ex2">
+        <div class="legend">MOST POPULAR</div>
+        <div class="shape">
+         
+        </div>
+        <input type="radio" id="unit2" name="unit" />
+        <span style="font-weight: bold">2 Unit</span>
+        <label for="unit2">
+          <span class="per"> 20% Off</span>
+          <span class="usd">$18.00 USD</span><br />
+
+          <del class="old">$24.00 USD</del>
+          <br />
+          <br />
+          <div class="dropdown-container">
+            #1
+            <div class="dropdown-group">
+              <label for="size">Size</label>
+              <select id="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="dropdown-group">
+              <label for="color">Color</label>
+              <select id="color">
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </label>
+      </fieldset>
+
+      <div class="box" id="ex3">
+        <input type="radio" id="unit3" name="unit" />
+        <span style="font-weight: bold">3 Unit</span>
+        <label for="unit3">
+          <span class="per"> 30% Off</span>
+          <span class="usd">$24.00 USD</span><br />
+
+          <del class="old">$24.00 USD</del>
+
+          <br />
+          <br />
+          <div class="dropdown-container">
+            #1
+            <div class="dropdown-group">
+              <label for="size">Size</label>
+              <select id="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="dropdown-group">
+              <label for="color">Color</label>
+              <select id="color">
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="info">
+      <span class="free">Free Delivery</span>
+      <span>Total : $18.00 USD</span>
+    </div>
+    <div class="button">
+      <div class="icon">
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.99998 1.33334V10.6667M1.33331 6.00001H10.6666"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div style="color: white">Add to Cart</div>
+    </div>
+  </body>
+</html>

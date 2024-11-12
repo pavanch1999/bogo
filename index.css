@@ -1,0 +1,183 @@
+:root {
+  --primary-color: #ff6b82;
+  --font-main: "Inter";
+}
+
+.inter-pont {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: 20px;
+
+  line-height: 24.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 389px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  font-size: 14px;
+
+  line-height: 16.94px;
+  font-style: normal;
+}
+
+.button {
+  font-family: var(--font-main);
+  border-radius: 4px;
+
+  background: var(--primary-color);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+
+  margin: auto;
+  width: 389px;
+  height: 40px;
+}
+.head {
+  font-family: var(--font-main);
+  text-align: center;
+}
+
+.free {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ff6b82;
+}
+
+.bogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 484px;
+  margin: 6px auto;
+
+  color: var(--primary-color);
+}
+.bogo::before,
+.bogo::after {
+  content: "";
+  flex: 0.3;
+  /* Adjust color as needed */
+  margin: 27px 10px; /* Spacing between text and lines */
+
+  border: 0.9px solid rgba(200, 200, 200, 1);
+}
+input[type="radio"] {
+  accent-color: #ff6b82;
+}
+
+.bord {
+  height: 440.11px;
+}
+.box {
+  font-family: var(--font-main);
+
+  padding: 20px;
+  margin: 30px auto;
+  width: 341px;
+
+  height: 45px;
+  overflow: hidden;
+
+  left: 59px;
+  top: 82px;
+
+  background: #ffffff;
+  border: 0.903803px solid #c8c8c8;
+}
+.ex {
+  font-family: var(--font-main);
+
+  padding: 20px;
+  margin: 30px auto;
+  width: 341px;
+
+  height: 150.11px;
+  overflow: hidden;
+
+  left: calc(50% - 341px / 2 - 1.5px);
+  top: 176px;
+
+  background: #fff9fa;
+  border: 2px solid #ff6b82;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  padding: 3.33px;
+  gap: 0px;
+  opacity: 0px;
+}
+.dropdown-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 26px;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 30%;
+}
+.per {
+  position: relative;
+  background-color: #ff6b82;
+  color: white;
+  left: 10px;
+}
+.usd {
+  position: relative;
+  left: 85px;
+}
+.old {
+  position: relative;
+  left: 229px;
+  font-size: x-small;
+  color: rgb(174, 169, 169);
+}
+.legend {
+  color: white;
+  font-size: 14px;
+  padding: 4px 5px;
+  background-color: #ff6b82;
+  top: 2px;
+  left: 229px;
+  position: relative;
+  top: -24px;
+  right: 54px;
+  width: 118px;
+  height: 18px;
+  gap: 0px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+
+
+
+
+
+}
+
+
+
+
+
+
